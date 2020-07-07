@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malikker</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Malikker</h1>
+        <label for="name">Name*</label>
+        <input class="u-full-width" type="text" id="name" />
+        <label for="content">Content*</label>
+        <textarea id="content" class="u-full-width"></textarea>
+        <button type="submit" class="u-full-width button-primary">Tweet</button>
+      </form>
+      <img class="loading" src="loading.gif" />
+      <header style="margin: 10% 0;">
+        <h1>News</h1>
+        <hr />
+      </header>
+      <div class="tweets"></div>
+    </div>
+    <script src="client.js"></script>
+  </body>
+</html>
